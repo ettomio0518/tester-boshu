@@ -130,13 +130,10 @@
 </head>
 <body>
 
-  <!-- ヘッダー -->
   <header>
-    <button class="top-right-button" onclick="location.href='index.html'">戻る</button>
     <h1>音声カレンダー 紹介ページ</h1>
   </header>
 
-  <!-- コンテンツ -->
   <div class="container">
     <div class="section">
       <img src="紹介580.png" alt="サンプル画像">
@@ -157,12 +154,13 @@
       <h2>🌟 プレミアム版の拡張機能</h2>
       <ul>
         <li>予定登録件数制限なし</li>
+        <li>**予定のある日は日付セルに色が付くことで視認性を増しています**</li>
         <li>アナログ時計と時刻の音声読み上げ</li>
         <li>お買い物電卓（割引・税込み計算）</li>
         <li>メモ機能（6分類・URL対応）</li>
         <li>簡易日記（一覧表示付き）</li>
         <li>キーワードによる検索</li>
-        <li>年齢計算（誕生日にメッセージ付き音声）</li>
+        <li>年齢計算（誕生日にメッセージ付き音声と音楽）</li>
         <li>ブックマークや通常電卓など便利ツールも</li>
       </ul>
     </div>
@@ -173,6 +171,7 @@
         <li>端末の音声読み上げ（TTS）機能が必要です</li>
         <li>日本語読み上げに対応</li>
         <li>不要になった予定は削除を推奨（容量節約）</li>
+        <li>**削除したくない過去の行事などは残すことにより、日付に色は残ります**</li>
         <li>個人情報の入力はご遠慮ください</li>
       </ul>
     </div>
@@ -199,15 +198,12 @@
     </div>
   </div>
 
-  <!-- フッター -->
   <footer>
-    © 20250504 ettomio
+    © 20250615 ettomio
   </footer>
 
-  <!-- スクロールで表示されるTopボタン 5/5 -->
   <button class="top-button" id="topBtn" onclick="scrollToTop()">Top</button>
 
-  <!-- JavaScript -->
   <script>
     // Topに戻る
     function scrollToTop() {
